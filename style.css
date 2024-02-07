@@ -1,0 +1,60 @@
+.img, .para, .button{
+    display: inline-block;
+}
+
+.img{
+    height: 100%;
+    width: 100px;
+    margin-right: 10px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.para{
+    width: 450px;
+}
+img{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+p{
+ font-family: 'Roboto', sans-serif;
+ font-size: 19px;
+ margin-top: 0px;
+ margin-bottom: 7px;
+    
+}
+.p1{
+    font-weight: 700;
+}
+.p2, .p3{
+    color: gray;
+    font-weight: 500;
+
+}
+.outer-box{
+    padding-top: 10px;
+    box-shadow: 0.5px 0.5px 60px rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: block;
+    margin-bottom: 4px;
+    border: 2px solid gray;
+    width: 750px;
+    
+}
+.button{
+    vertical-align: top;
+    margin-left: 20px;
+}
+button{
+    color: white;
+    background-color: rgb(0, 149, 255);
+    border-radius: 4px;
+    border:0px;
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
